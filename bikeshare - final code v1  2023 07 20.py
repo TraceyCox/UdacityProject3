@@ -6,8 +6,11 @@ import numpy as np
 from tabulate import tabulate
 
 CITY_DATA = { 'chicago': 'chicago.csv',
+             'chi': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'nyc': 'new_york_city.csv',
+              'washington': 'washington.csv',
+               'dc': 'washington.csv' }
 
 my_path = 'c:/Users/cox16/OneDrive - Bertelsmann SE & Co. KGaA/Reference File/Tools for Analysis/Python & SQL/Udacity - Python for Data Science/Python/Project'
 
