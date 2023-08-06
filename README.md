@@ -9,7 +9,10 @@ This project opens a bikeshare file for a city selected through user input. It t
 
 ### Files used
 bikeshare - final code v1 2023 07 20
+One of the following, depending on the city chosen:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 Udacity Python for Data Science
-
