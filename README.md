@@ -16,3 +16,4 @@ One of the following, depending on the city chosen:
 
 ### Credits
 Udacity Python for Data Science
+Motivate for the underlying city data
