@@ -4,10 +4,15 @@ from datetime import datetime, timedelta as td
 import pandas as pd
 import numpy as np
 from tabulate import tabulate
+import matplotlib.pyplot as plt
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
+             'chi': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'nyc': 'new_york_city.csv',
+              'washington': 'washington.csv',
+               'dc': 'washington.csv' }
 
 my_path = 'c:/Users/cox16/OneDrive - Bertelsmann SE & Co. KGaA/Reference File/Tools for Analysis/Python & SQL/Udacity - Python for Data Science/Python/Project'
 
@@ -207,6 +212,8 @@ def trip_duration_stats(df):
     ave_travel_time = ave_travel_time - td(microseconds=ave_travel_time.microseconds)
 
     print("The average hire time in h:m:s was {}".format(ave_travel_time))
+    plt.plot(df['Trip Duration'])
+    plt.show(); plt.show()
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
